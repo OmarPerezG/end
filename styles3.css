@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+    background-image: url('Imagenes/fondometal.jpg'); /* Ruta de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+    padding: 80px;
+    border-radius: 20px;
+    margin: 100px auto;
+    max-width: 600px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.container h1 {
+    font-size: 60px; /* Tamaño de fuente más grande */
+    margin-bottom: 20px;
+}
+
+.container p {
+    font-size: 30px; /* Aumenta el tamaño de las letras de los párrafos */
+    margin: 10px 0;
+}
+
+/* Responsive para pantallas más pequeñas */
+@media (max-width: 600px) {
+    .container {
+        margin: 50px 20px;
+        padding: 20px;
+    }
+
+    .container h1 {
+        font-size: 48px; /* Ajuste para pantallas pequeñas */
+    }
+
+    .container p {
+        font-size: 24px; /* Ajuste para pantallas pequeñas */
+    }
+}
+
+
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.logo-left img,
+.logo-right img {
+    height: 80px; /* Ajusta el tamaño del logo según sea necesario */
+}
+
+.navbar-title {
+    flex: 1;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
